@@ -27048,3 +27048,53 @@ $grid-breakpoints: (
         bottom: -60px;
     }
 }
+
+/* Navbar Links Widget */
+.footer-medlab-style .links-widget .user-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-medlab-style .links-widget .user-links li {
+    margin-bottom: 12px;
+}
+
+.footer-medlab-style .links-widget .user-links li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-medlab-style .links-widget .user-links li a {
+    color: #4a5568;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.footer-medlab-style .links-widget .user-links li a::before {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    content: "\f105";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    margin-right: 8px;
+    font-size: 14px;
+    color: var(--theme-color1);
+    transition: all 0.3s ease;
+}
+
+.footer-medlab-style .links-widget .user-links li a:hover::before {
+    width: auto;
+}
+
+.footer-medlab-style .links-widget .user-links li a:hover {
+    color: var(--theme-color1);
+    transform: translateX(5px);
+}
