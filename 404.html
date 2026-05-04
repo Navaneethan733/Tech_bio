@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>404 - Page Not Found | STACKLY BIO TECHNOLOGY</title>
+    <meta name="description" content="The page you are looking for does not exist.">
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.webp" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* ===== PAGE HERO (404 Error) ===== */
+        .page-hero {
+            background: linear-gradient(135deg, #0b132b 0%, #0062FF 60%, #1b67f3 100%);
+            padding: 140px 0 80px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url('images/banner/banner-image1.webp') center/cover no-repeat;
+            opacity: 0.12;
+        }
+        .page-hero .breadcrumb-wrap { position: relative; z-index: 1; }
+        .page-hero h1 { font-size: clamp(36px, 6vw, 64px); font-weight: 800; color: #fff; margin-bottom: 16px; }
+        .page-hero h1 span { color: #7eb3ff; }
+        .page-hero .breadcrumb-nav { display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 15px; color: rgba(255,255,255,0.7); }
+        .page-hero .breadcrumb-nav a { color: rgba(255,255,255,0.9); text-decoration: none; }
+        .page-hero .breadcrumb-nav .sep { color: rgba(255,255,255,0.4); }
+
+        /* ===== ERROR CONTENT ===== */
+        .error-section {
+            padding: 120px 0;
+            text-align: center;
+            background: var(--bg-body);
+        }
+        .error-code {
+            font-size: 150px;
+            font-weight: 900;
+            line-height: 1;
+            color: #0b132b;
+            margin-bottom: 20px;
+            text-shadow: 4px 4px 0px rgba(0, 98, 255, 0.1);
+        }
+        .error-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #0b132b;
+            margin-bottom: 15px;
+        }
+        .error-text {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+            max-width: 500px;
+            margin-inline: auto;
+            line-height: 1.6;
+        }
+        .btn-home {
+            background: linear-gradient(135deg, #0062FF, #1b67f3);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 18px 45px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            transition: all 400ms ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .btn-home:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 16px 32px rgba(0,98,255,0.25); 
+            opacity: 0.95; 
+            color: #fff;
+        }
+        .btn-home i { font-size: 18px; transition: transform 300ms ease; }
+        .btn-home:hover i { transform: translateX(5px); }
+        
+        /* 404 Social Links */
+        .error-socials {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .error-socials a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: #fff;
+            color: #0b132b;
+            font-size: 18px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 300ms ease;
+            border: 1px solid #f0f2f8;
+        }
+        .error-socials a:hover {
+            background: #0062FF;
+            color: #fff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,98,255,0.2);
+            border-color: #0062FF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="preloader-content">
+                <div class="preloader-logo">STACKLY</div>
+                <div class="preloader-subtext">Biotechnology</div>
+            </div>
+        </div>
+
+        <!-- Main Header-->
+        <header class="main-header header-style-one">
+            <!-- Main box -->
+            <div class="main-box">
+                <div class="logo-box">
+                    <div class="logo"><a href="index.html"><img src="images/logo.webp" alt="STACKLY"></a></div>
+                </div>
+
+                <!--Nav Box-->
+                <div class="nav-outer">
+                    <nav class="nav main-menu">
+                        <ul class="navigation">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li class="d-lg-none"><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="outer-box">
+                    <div class="info-box">
+                        <div class="call-info">
+                            <i class="fa-solid fa-phone ring__animation"></i>
+                            <div>
+                                <h6 class="title">Phone:</h6>
+                                <a href="tel:+919876543210">+91 9876543210</a>
+                            </div>
+                        </div>
+                        <a class="btn-two" href="login.html">Login Now</a>
+                    </div>
+                    <div class="mobile-nav-toggler d-block d-lg-none"><i class="icon lnr-icon-bars"></i></div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu  -->
+            <div class="mobile-menu">
+                <div class="menu-backdrop"></div>
+                <nav class="menu-box">
+                    <div class="upper-box">
+                        <div class="nav-logo"><a href="index.html"><img src="images/logo-light.webp" alt=""></a></div>
+                        <div class="close-btn"><i class="icon fa fa-times"></i></div>
+                    </div>
+                    <ul class="navigation clearfix d-block d-lg-none"></ul>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Sticky Header -->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="logo"><a href="index.html"><img src="images/logo.webp" alt=""></a></div>
+                        <div class="nav-outer">
+                            <nav class="main-menu">
+                                <div class="navbar-collapse show collapse clearfix">
+                                    <ul class="navigation clearfix"></ul>
+                                </div>
+                            </nav>
+                            <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="breadcrumb-wrap">
+                    <h1>Page <span>Not Found</span></h1>
+                    <nav class="breadcrumb-nav">
+                        <a href="index.html">Home</a>
+                        <span class="sep"><i class="fa-solid fa-angle-right"></i></span>
+                        <span>404 Error</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- 404 Error Section -->
+        <section class="error-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="error-content wow fadeInUp">
+                            <h2 class="error-code">404</h2>
+                            <h3 class="error-title">Oops! We couldn't find that page.</h3>
+                            <p class="error-text">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. Let's get you back on track.</p>
+                            <a href="index.html" class="btn-home">Return to Homepage <i class="fa-solid fa-arrow-right"></i></a>
+                            
+                            <div class="error-socials">
+                                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Footer -->
+                <footer class="main-footer footer-medlab-style">
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <!-- Column 1 -->
+                        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                            <div class="footer-widget about-widget">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.webp" alt="Logo"></a>
+                                </div>
+                                <p class="text mt-4 mb-4">To receive email releases, simply provide us with your email below</p>
+                                <div class="subscribe-box">
+                                    <input type="email" placeholder="Your Email">
+                                    <button type="submit"><i class="fa-solid fa-envelope"></i></button>
+                                </div>
+                                <ul class="social-icons mt-4">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Column 2 -->
+                        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                            <div class="footer-widget blog-widget">
+                                <h4 class="widget-title">Blog Posts</h4>
+                                <div class="widget-content">
+                                    <div class="post-item">
+                                        <div class="thumb"><img src="images/blog/blog-image1.webp" alt="Post"></div>
+                                        <div class="info">
+                                            <h5 class="title"><a href="blog.html">The doctor's guide to healthy break...</a></h5>
+                                            <span class="date">September 26, 2026</span>
+                                        </div>
+                                    </div>
+                                    <div class="post-item">
+                                        <div class="thumb"><img src="images/blog/blog-image2.webp" alt="Post"></div>
+                                        <div class="info">
+                                            <h5 class="title"><a href="blog.html">So, how much sleep is normal?</a></h5>
+                                            <span class="date">August 22, 2026</span>
+                                        </div>
+                                    </div>
+                                    <div class="post-item">
+                                        <div class="thumb"><img src="images/blog/blog-image3.webp" alt="Post"></div>
+                                        <div class="info">
+                                            <h5 class="title"><a href="blog.html">Healthy Habits...</a></h5>
+                                            <span class="date">July 25, 2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-widget contact-widget">
+                                <h4 class="widget-title">Our Contacts</h4>
+                                <ul class="contact-info">
+                                    <li>
+                                        <i class="fa-solid fa-location-dot icon"></i>
+                                        <div class="content">
+                                            <p>1560 Holden Street San Diego, CA 92139</p>
+                                            <a href="contact.html" class="btn-directions">Get directions on the map <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-phone icon"></i>
+                                        <div class="content">
+                                            <p>1-800-267-0000, 1-800-267-0001</p>
+                                            <span class="small-text">(24/7 General inquiry)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-envelope icon"></i>
+                                        <div class="content">
+                                            <p>info@stackly.com</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom-area">
+                <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="copyright-text">
+                        Copyright &copy; 2026 STACKLY | <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="emergency-contact">
+                        For emergency cases <i class="fa-solid fa-phone ms-2 me-1"></i> <strong>1-800-267-0000</strong>
+                    </div>
+                </div>
+                <button class="back-top-btn scroll-to-top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+        </footer>
+
+    </div>
+    <!-- End Page Wrapper -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/splitting.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        (function() {
+            function dismissPreloader() {
+                var pre = document.querySelector('.preloader');
+                if (pre) {
+                    pre.style.transition = 'opacity 0.5s ease';
+                    pre.style.opacity = '0';
+                    setTimeout(function() { pre.style.display = 'none'; }, 600);
+                }
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(dismissPreloader, 500);
+            });
+            setTimeout(dismissPreloader, 2500);
+        })();
+    </script>
+</body>
+
+</html>
+
